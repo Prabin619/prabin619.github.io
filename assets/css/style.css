@@ -176,6 +176,16 @@ a {
     background: #fff;
     border: 2px solid #0c5460;
 }
+.contact-block {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    background: #0c5460;
+    color: #ffffff;
+    text-align: center;
+}
+.contact-block i {
+	font-size: 42px;
+}
 
 
 @media (min-width: 992px) {
