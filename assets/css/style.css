@@ -186,7 +186,15 @@ a {
 .contact-block i {
 	font-size: 42px;
 }
-
+.font-28 {
+	font-size: 28px;
+}
+.font-48 {
+	font-size: 48px;
+}
+.font-14 {
+	font-size: 14px;
+}
 
 @media (min-width: 992px) {
 	.main-content {
@@ -203,6 +211,12 @@ a {
 	}
 	#menu .navbar-brand {
 		margin: 50px auto 0;
+	}
+}
+
+@media (max-width: 992px) {
+	#menu {
+		height: calc(100% - 45px) !important;
 	}
 }
 

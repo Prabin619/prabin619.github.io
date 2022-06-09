@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Prabin Sapal is a professional software developer with more than 4 years of experience.">
     <meta name="author" content="Prabin Sapal">
-    <meta name="keywords" content="prabin, sapal, prabin sapal, freelancer, software developer nepal, Python developer nepal, django developer nepal, JavaScript developer nepal">
+    <meta name="keywords" content="prabin, sapal, prabin sapal, sapal prabin, freelancer, software developer nepal, Python developer nepal, django developer nepal, JavaScript developer nepal">
 
     <title>Prabin Sapal - Software Developer Nepal</title>
 
@@ -53,6 +53,10 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
+      </div>
+      <div class="nav-footer font-14 text-white mt-3">
+        &copy; <span id="year"></span> | All rights reserved
+        <h2 class="font-14 text-white">Sapal Prabin</h2>
       </div>
     </nav>
 
@@ -118,7 +122,7 @@
       <!-- Experience Section Start -->
       <section class="body-content-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="col-lg-12">
-          <h2 class="mb-5">Professional Experience</h2>
+          <h4 class="mb-5 font-48">Professional Experience</h4>
           <div class="experience-item">
             <h4>Software Developer</h4>
             <h5>Nerd Platoon Pvt Ltd</h5>
@@ -160,11 +164,11 @@
       <!-- Education Section Start -->
       <section class="body-content-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+          <h4 class="mb-5 font-48">Education</h4>
 
           <div class="body-content-item d-flex flex-column flex-md-row mb-5">
             <div class="body-content-content mr-auto">
-              <h3 class="mb-0">Purbanchal University</h3>
+              <h5 class="mb-0 font-28">Purbanchal University</h5>
               <div class="subheading mb-3">Kantipur City College</div>
               <div>Bachelor of Computer Application</div>
             </div>
@@ -175,7 +179,7 @@
 
           <div class="body-content-item d-flex flex-column flex-md-row">
             <div class="body-content-content mr-auto">
-              <h3 class="mb-0">Capital College and Research Center</h3>
+              <h5 class="mb-0 font-28">Capital College and Research Center</h5>
               <div class="subheading mb-3">Intermediate (+2) Management</div>
               <div>Computer Science </div>
             </div>
@@ -190,7 +194,7 @@
       <!-- Skills Section Start -->
       <section class="body-content-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="col-lg-12">
-          <h2 class="mb-5">Skills</h2>
+          <h4 class="mb-5 font-48">Skills</h4>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <div class="row">
             <div class="col-lg-6">
@@ -306,7 +310,7 @@
        <!-- Experience Section Start -->
        <section class="body-content-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="col-lg-12">
-          <h2 class="mb-5">Contact</h2>
+          <h4 class="mb-5 font-48">Contact</h4>
           <div class="sub-heading">
             Looking for a Business talk? <br />
             Looking for a Software Development / Project Management / Coding Instructor / Freelancer? <br/>
@@ -397,6 +401,8 @@
               easyClose: true,
             });
         });
+        const current_date = new Date();
+        document.getElementById("year").innerHTML = current_date.getFullYear();
     </script>
     <!-- Scripts -->
 
